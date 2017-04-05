@@ -5,7 +5,13 @@ Rails.application.routes.draw do
     resource :session, only: [:create, :destroy]
     resources :series
     resources :episodes
-    resources :genres 
+    resources :genres
+    resources :favorites, only: [:index,:create,:destroy]
+    resources :reviews, only: [:create,:update,:destroy]
+    resources :users, only:[:create,:update,:destroy]
+    resources :profiles
+    get 'search/' => 'series#search', as: :search_series
+    post 'current_profile/' => 'users#set_cp', as: :set_current_profile
   end
-  root 'static_pages#index'
+  root 'static_pages#root'
 end

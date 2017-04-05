@@ -1,0 +1,257 @@
+.prof{
+  display: block;
+  margin: 30.3556px 0px;
+  line-height: 18.2133px;
+  list-style-type: disc;
+  text-align: center;
+  text-size-adjust: 100%;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+  user-select: none;
+  text-transform: capitalize;
+  color: rgb(128, 128, 128);
+}
+
+
+.profile-delete-button{
+  border: 1px solid grey;
+  color: grey;
+  padding: 3px 5px;
+  margin: 10px 0px;
+}
+
+.profile-delete-button:hover{
+  border: 1px solid white;
+  color: white;
+  padding: 3px 5px;
+  margin: 10px 0px;
+}
+
+.space-span{
+  border: 1px solid rgb(20,20,20);
+  color: rgb(20,20,20);
+  padding: 3px 5px;
+  margin: 10px 0px;
+}
+
+.profnewicon{
+  display: block;
+  margin: 30.3556px 0px;
+  line-height: 18.2133px;
+  list-style-type: disc;
+  text-align: center;
+  text-size-adjust: 100%;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+  user-select: none;
+  text-transform: capitalize;
+  color: rgb(128, 128, 128);
+}
+
+.prof > li{
+  cursor: pointer;
+  margin: 0px 30.3556px ;
+  background: rgb(20, 20, 20);
+  background-size: contain no-repeat;
+  display: inline-block;
+  width: 151.771px;
+  height: 230px;
+  max-width: 200px;
+  min-width: 84px;
+  text-align: center;
+  position: relative;
+  list-style-type: disc;
+}
+
+// .prof > li:hover{
+//   cursor: pointer;
+//   background: rgb(20, 20, 20);
+//   background-size: contain no-repeat;
+//   display: inline-block;
+//   width: 151.771px;
+//   height: 230px;
+//   max-width: 200px;
+//   min-width: 84px;
+//   text-align: center;
+//   position: relative;
+//   color: white;
+// }
+
+.profp{
+  background-image: asset-url("profile_avi.png");
+  background-size: contain;
+  height: 142px;
+  width: 142px;
+  border: 3px solid rgb(20,20,20);
+}
+
+.profni{
+  background-image: asset-url("new_profile_icon.png");
+  background-size: cover;
+  height: 142px;
+  width: 142px;
+  border: 3px solid rgb(20,20,20);
+}
+
+.profni:hover{
+  background-image: asset-url("new_profile_icon.png");
+  background-size: contain;
+  height: 142px;
+  width: 142px;
+  border: 3px solid rgb(20,20,20);
+  background-color: white;
+}
+
+.profp:hover{
+  background-image: asset-url("profile_avi.png");
+  background-size: contain;
+  height: 142px;
+  width: 142px;
+  border: 3px solid white;
+}
+
+.profn{
+  margin-top: 15.785px;
+  margin-bottom: 15.785px;
+  font-size: 19.7311px;
+}
+
+.profnew{
+  margin-top: 15.785px;
+  margin-bottom: 15.785px;
+  font-size: 19.7311px;
+}
+
+.profn:hover{
+  margin-top: 15.785px;
+  margin-bottom: 15.785px;
+  font-size: 19.7311px;
+  color: white;
+}
+
+.add-profile-container{
+  position: absolute;
+  display: block;
+  top: 150%;
+  left: 125%;
+  width: 100%;
+}
+
+.ad{
+  font-size: 60.711px;
+  text-align: left;
+  display: block;
+}
+
+.addescription{
+  font-size: 19.7311px;
+  text-align: left;
+  display: block;
+  color: grey;
+}
+
+.main-new-profile{
+  position: absolute;
+}
+
+.profile-info{
+  border-bottom-color: rgb(51, 51, 51);
+  border-top-color: rgb(51, 51, 51);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-width: 1.111px;
+  border-top-width: 1.111px;
+  padding-top: 30.356px;
+  padding-bottom: 30.356px;
+}
+
+.new-profile-img{
+  background-image: asset-url("profile_avi.png");
+  width: 121px;
+  height: 125px;
+  margin-right: 22.767px;
+  white-space: nowrap;
+  background-size: contain;
+}
+
+.profile-input{
+  padding: 3.946px 11.839px;
+  border: 1.111px;
+  background-color: rgb(102,102,102);
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  width: 329.256;
+  height: 29.347;
+  color: white;
+}
+
+.input-box{
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 55%;
+}
+
+.create-profile-confirm{
+  padding: 8.879px 26.637px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: white ;
+  color: black ;
+  border: 1.11111px;
+  margin-top: 39.462px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.create-profile-confirm:hover{
+  padding: 8.879px 26.637px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: 1.11111px;
+  margin-top: 39.462px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-profile{
+  padding: 8.879px 26.637px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(20, 20, 20);
+  color: grey;
+  border: 1.11111px solid rgb(102,102,102);
+  margin-top: 39.462px;
+  margin-right: 20px;
+  font-weight: bold;
+
+}
+
+.cancel-profile:hover{
+  cursor: pointer;
+  padding: 8.879px 26.637px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border: 1.11111px solid white;
+  margin-top: 39.462px;
+  margin-right: 20px;
+  font-weight: bold;
+
+}
+
+.ww{
+  font-size: 53.1222px;
+  text-align: center;
+}
+
+.ph{
+  height: 70px;
+  top: 0;
+  background: linear-gradient(to bottom, rgb(20, 20, 20), rgba(0,0,0,0)), no-repeat center;
+  z-index: 1;
+  padding: 0px 60px;
+}

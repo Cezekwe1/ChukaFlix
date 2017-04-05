@@ -1,16 +1,17 @@
-import {RECEIVE_ALL_SERIES} from '../actions/series_actions';
-import {merge} from 'lodash';
+import { RECEIVE_SERIE } from '../actions/series_actions';
+import { REMOVE_FAVORITE_SERIE, ADD_FAVORITE_SERIE } from '../actions/favorite_actions';
+import { UPDATE_RATING, CREATE_RATING, RECEIVE_AVG_RATING } from '../actions/review_actions';
+import merge from 'lodash/merge';
 
-const intial_state = {session: "this is the seesion"}
+const SeriesReducer = (state = {}, action) => {
+  Object.freeze(state);
+  let newState;
+  switch(action.type) {
+    case RECEIVE_SERIE:
+      return action.serie;
+    default:
+      return state;
+  }
+};
 
- const seriesReducer = (state = intial_state, action) => {
-   switch (action.type) {
-     case RECEIVE_ALL_SERIES:
-       return merge({},action.series)
-     default:
-       return state
-   }
- }
-
-
- export default seriesReducer;
+export default SeriesReducer;
