@@ -144,7 +144,7 @@ class Serie extends React.Component {
       this.props.addSerieToMyList(serie,profile);
     }
 
-    console.log(this.props.favorites)
+    
   }
 
   isSerieInMyList() {
