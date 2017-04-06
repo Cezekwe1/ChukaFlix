@@ -337,7 +337,7 @@ all_episodes = [
     title: "Pilot",
     description: 'A new set of contestants are chosen for the game.',
     serie_id: all_series[15].id,
-    image: File.open('app/assets/images/episodes/percent/3-episode-1.jpg'),
+    image: File.open('app/assets/images/episodes/percent/3-episode-1.jpeg'),
     video_url: '8yyzNQfaQR8',
     episode_number: 1
   }),
