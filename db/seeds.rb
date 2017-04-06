@@ -130,7 +130,7 @@ all_series = [
     title: 'The Punisher',
     description: 'Haunted by the battlefield the punisher deals out his own version of justice.',
     year: 2017,
-    # image: File.open('app/assets/images/series/punisher.jpg'),
+    image: File.open('app/assets/images/series/punisher.jpg'),
     genre_id: all_genres[3].id
   }),
 
