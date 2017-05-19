@@ -180,7 +180,64 @@ all_series = [
     year: 2017,
     image: File.open('app/assets/images/series/oa.jpg'),
     genre_id: all_genres[4].id
+  }),
+
+  Serie.create!({
+    title: 'Samurai Champloo',
+    description: 'Lone samurai tries to find his way.',
+    year: 2004,
+    image: File.open('app/assets/images/series/champloo.jpg'),
+    genre_id: all_genres[0].id
+  }),
+
+  Serie.create!({
+    title: 'Samurai Jack ',
+    description: 'Samurai Jack is trying kill Apu.',
+    year: 2001,
+    image: File.open('app/assets/images/series/jack.jpg'),
+    genre_id: all_genres[0].id
+  }),
+
+  Serie.create!({
+    title: 'One Piece',
+    description: 'Story about a pirate.',
+    year: 1999,
+    image: File.open('app/assets/images/series/piece.jpg'),
+    genre_id: all_genres[0].id
+  }),
+
+  Serie.create!({
+    title: 'True Detective',
+    description: 'Detectives try and solve a new case every season.',
+    year: 2014,
+    image: File.open('app/assets/images/series/true-detective.jpg'),
+    genre_id: all_genres[1].id
+  }),
+
+  Serie.create!({
+    title: 'Monk',
+    description: 'Odd man solves cases.',
+    year: 2002,
+    image: File.open('app/assets/images/series/monk.jpg'),
+    genre_id: all_genres[1].id
+  }),
+
+  Serie.create!({
+    title: 'Law and Order: SVU',
+    description: 'Hard-boiled New York detectives solve crimes',
+    year: 1999,
+    image: File.open('app/assets/images/series/svu.jpg'),
+    genre_id: all_genres[1].id
+  }),
+
+  Serie.create!({
+    title: "Bob's Burgers",
+    description: 'A quirky family owns burger joint.',
+    year: 2011,
+    image: File.open('app/assets/images/series/bob.jpg'),
+    genre_id: all_genres[2].id
   })
+
 ]
 
 Episode.destroy_all
@@ -357,6 +414,69 @@ all_episodes = [
     serie_id: all_series[17].id,
     image: File.open('app/assets/images/episodes/oa/oa-episode-1.jpg'),
     video_url: 'DvHJtez2IlY',
+    episode_number: 1
+  }),
+
+# new additions 
+  Episode.create!({
+    title: "Tempestuous Temperments",
+    description: 'Introduction.',
+    serie_id: all_series[18].id,
+    image: File.open('app/assets/images/episodes/champloo/champloo-episode-1.jpg'),
+    video_url: 'eQkSi3P3K6A',
+    episode_number: 1
+  }),
+
+  Episode.create!({
+    title: "The Begininng",
+    description: 'The hero Jack is looking for Apu.',
+    serie_id: all_series[19].id,
+    image: File.open('app/assets/images/episodes/jack/jack-episode-1.jpg'),
+    video_url: 'vMyScF0ccV4',
+    episode_number: 1
+  }),
+
+  Episode.create!({
+    title: "I'm Gonna be King of Pirates",
+    description: 'Meet the Pirates.',
+    serie_id: all_series[20].id,
+    image: File.open('app/assets/images/episodes/piece/piece-episode-1.jpg'),
+    video_url: 'WO_kvM6SRYs',
+    episode_number: 1
+  }),
+
+  Episode.create!({
+    title: "The Long Bright Dark",
+    description: 'Mysterious case sends partners on a goose chase.',
+    serie_id: all_series[21].id,
+    image: File.open('app/assets/images/episodes/true/true-episode-1.jpg'),
+    video_url: 'aMuRZGPbz7U',
+    episode_number: 1
+  }),
+
+  Episode.create!({
+    title: "The Monk and the Candidate",
+    description: 'Monk is an odd fellow solving death of politician.',
+    serie_id: all_series[22].id,
+    image: File.open('app/assets/images/episodes/monk/monk-episode-1.jpg'),
+    video_url: 'RSv1rNthRV4',
+    episode_number: 1
+  }),
+
+  Episode.create!({
+    title: "Payback",
+    description: 'Meet the detectives.',
+    serie_id: all_series[23].id,
+    image: File.open('app/assets/images/episodes/svu/svu-episode-1.jpg'),
+    video_url: 'QnZeWuxju_g',
+    episode_number: 1
+  }),
+  Episode.create!({
+    title: "Human Flesh",
+    description: 'Bob gets accused of serving human flesh.',
+    serie_id: all_series[24].id,
+    image: File.open('app/assets/images/episodes/bob/bob-episode-1.jpg'),
+    video_url: 'kUAxHYrLBkg',
     episode_number: 1
   })
 ]

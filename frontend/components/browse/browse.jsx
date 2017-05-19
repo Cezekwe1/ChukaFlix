@@ -13,8 +13,8 @@ const opts = {
   playerVars: {
     autohide: 1,
     showinfo: 0,
-    autoplay: 0,
-    controls: 0,
+    autoplay: 1,
+    controls: 1,
     loop: 1,
     modestBranding: 1,
     iv_load_policy: 3,
@@ -30,7 +30,7 @@ const opts = {
   }
 
   componentDidMount(){
-    
+
   }
 
   checkProfile(){
